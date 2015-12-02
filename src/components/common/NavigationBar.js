@@ -17,11 +17,10 @@ const NavigationBar = React.createClass({
               </Link>
 
               <ul className="nav navbar-nav">
-                <li><Link to="jewerlyStore">Home</Link></li>
-                <li><Link to="jewerlyStore">About</Link></li>
-                <li><Link to="jewerlyStore">Contact</Link></li>
+                <li><Link to="/home">Home</Link></li>
+                <li><Link to="app">About</Link></li>
+                <li><Link to="app">Contact</Link></li>
               </ul>
-              {this.props.children}
             </div>
           </div>
       </div>

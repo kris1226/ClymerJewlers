@@ -7,11 +7,11 @@ import NavigationBar from './components/common/NavigationBar';
 
 const App = React.createClass({
   render() {
+    debugger;
     return (
       <DocumentTitle title='Clymer Metal Crafts'>
         <div>
           <NavigationBar />
-          <ProductsContainer />
           {this.props.children}
         </div>
       </DocumentTitle>

@@ -5,7 +5,6 @@ import imageStore from '../stores/imageStore';
 
 const ProductsContainer  = React.createClass({
   getInitialState() {
-    debugger;
     return {
       items: imageStore.getImages()
     };

@@ -24,7 +24,6 @@ let imageStore = assign({}, EventEmitter.prototype, {
 });
 
 register((action) => {
-  debugger;
   let value = actionTypes.REQUEST_IMAGES;
   switch(action.type.type) {
     case actionTypes.REQUEST_IMAGES: _images = action.type.initialData.images.items;

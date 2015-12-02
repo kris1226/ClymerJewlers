@@ -3,7 +3,7 @@ import React, { PropTypes } from 'react'
 import DocumentTitle from 'react-document-title';
 
 class ProductPage extends React.Component {
-  constructor() {
+  constructor(props) {
     super();
   }
 
