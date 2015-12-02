@@ -7,7 +7,6 @@ import { Router, Route, Link } from 'react-router';
 
 const NavigationBar = React.createClass({
   render() {
-    debugger;
     return (
       <div className="navbar navbar-default navbar-fixed-top yamm" role="navigation" id="navbar">
           <div className="container">
